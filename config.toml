@@ -1,0 +1,207 @@
+#-------------------------------
+# General Site Settings
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Fragrances de America"
+googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
+paginate = 7
+
+
+#-------------------------------
+# Main Menu
+[menu]
+  [[menu.main]]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Articles"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "men"
+    name = "Men"
+    url = "/men/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "videos"
+    name = "Women's 50"
+    url = "/videos/"
+    weight = 4
+
+      [[menu.main]]
+        parent = "More"
+        name = "About"
+        url = "/about/"
+        weight = 1
+
+      [[menu.main]]
+        parent = "More"
+        name = "Contact"
+        url = "/contact/"
+        weight = 2
+
+    # Footer Menu
+    [[menu.footer]]
+      identifier = "home"
+      name = "Home"
+      url = "/"
+      weight = 1
+
+    [[menu.footer]]
+      identifier = "authors"
+      name = "Notes"
+      url = "/authors/"
+      weight = 2
+
+    [[menu.footer]]
+      identifier = "blog"
+      name = "Articles"
+      url = "/posts/"
+      weight = 3
+
+
+[params]
+  logo = "images/fda.png"
+  description = "Mria is a multipurpose blog theme for HUGO"
+  color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+    enable = false
+    hero__title = "Thoughts, stories and ideas."
+    hero__description = "Using quality fragrances is crucial as they not only enhance personal grooming but also leave a lasting impression, contributing to one's overall confidence and self-expression. The intricate and well-crafted compositions of high-quality fragrances also ensure longevity and a distinct olfactory experience, making them a significant element in creating memorable and refined impressions."
+    hero__image = "" # You can add hero image. For example "/images/06.jpg"
+
+
+  #-------------------------------
+  # Blog Section Settings
+  [params.blog]
+    enable = true
+    blog__title = "Latest Posts"
+    blog__description = ""
+
+  #-------------------------------
+  # Men's Blog Section Settings
+  [params.men]
+    enable = true
+    blog__title = "Latest Posts"
+    blog__description = ""
+
+  #-------------------------------
+  # Videos Section Settings
+  [params.videos]
+    enable = false
+    videos__title = "Latest Videos"
+    videos__description = ""
+
+
+  #-------------------------------
+  # Tag Section Settings
+  [params.tag]
+    enable = true
+    tag = "niche" # To display the tag section, specify your favorite tag.
+
+
+  #-------------------------------
+  # Author Section Settings
+  [params.author_section]
+    enable = true
+    author__section__title = "We are your simple navigation into the world of fragrances."
+    author__section__description = "We are an independent content creation team with a passion for sharing our favorite scents around the world. We understand fragrances are a very subjective topic but we are commited to highlight the very best of each topic in our collection of articles."
+    aurhor__section__button__text = "More About Me"
+    aurhor__section__button__link = "/about"
+    author__section__big__image = "images/fda/fda-author.jpg"
+    author__section__image__alt = "Alena Curtis"
+
+
+  # Newsletter
+  [params.mailchimp]
+    enable = true
+    mailchimp__title = "Newsletter coming soon"
+    mailchimp__description = "Check back again soon. Our site is always growing and new content will be up regularly."
+    mailchimp__identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+    mailchimp__input__text = "Your email address"
+    mailchimp__button__text = "Subscribe"
+    mailchimp__background__image = "https://via.placeholder.com/1920x1080"
+
+
+  #-------------------------------
+  # Footer Settings
+  [params.footer]
+    footer__description = "Using quality fragrances is crucial as they not only enhance personal grooming but also leave a lasting impression, contributing to one's overall confidence and self-expression. The intricate and well-crafted compositions of high-quality fragrances also ensure longevity and a distinct olfactory experience, making them a significant element in creating memorable and refined impressions."
+
+  # Social Links
+  [[params.social]]
+    icon = "ion-logo-twitter"
+    name = "Twitter"
+    link = "https://twitter.com"
+
+  [[params.social]]
+    icon = "ion-logo-facebook"
+    name = "Facebook"
+    link = "https://facebook.com"
+
+  [[params.social]]
+    icon = "ion-logo-codepen"
+    name = "Codepen"
+    link = "https://codepen.io"
+
+  [[params.social]]
+    icon = "ion-logo-pinterest"
+    name = "Pinterest"
+    link = "https://pinterest.com"
+
+  [[params.social]]
+    icon = "ion-logo-vimeo"
+    name = "Vimeo"
+    link = "https://vimeo.com"
+
+  # Example of adding a new link to the footer section:
+  # [[params.social]]
+  #   icon = "ion-logo-youtube"
+  #   name = "Youtube"
+  #   link = "https://youtube.com"
+
+  # Other icons can be found at https://ionicons.com/v4/
+
+
+  #-------------------------------
+  # Contact Settings
+  [params.contact]
+    email = "your@email.com" # Add your form_id
+
+    # NOTE
+    # Mria comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+  #-------------------------------
+  # Comment Section (Disqus)
+  [params.disqus]
+    enable = true
+    disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+[taxonomies]
+  author = "authors"
+  women = "women"
+  tag = "tags"
+  men = "men"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
