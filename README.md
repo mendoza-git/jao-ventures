@@ -1,58 +1,28 @@
-# Mria – Multipurpose Hugo Blog Theme
+# JAO Investment Group
 
-Mria is a high quality multipurpose Hugo theme with a unique style and clean code. You can use Mria for all sorts of websites like blogs, magazines, portfolios, etc. This theme is fully responsive, and it looks good on all types of screens and devices. If you’re looking for a theme that is clean, high performance, and simple, the Mria theme is exactly what you’re looking for then.
+## Navigation
+- [Home](#home)
+- [Services](#services)
+- [News & Articles](#news--articles)
+- [About](#about)
+- [Contact](#contact)
 
-* * *
+## Home
+### Fueling Innovation Through Investment
+Welcome to JAO Investment Group, where we specialize in creating opportunities and maximizing value through strategic property investments.
 
-### Demo
+## Services
+### Our Services
+Discover how our tailored solutions in real estate consulting and property management can help achieve your financial goals.
 
-Check the theme in action [Live Demo](https://mria-hugo.netlify.app/) |
-[Anvod Studio](https://themeforest.net/user/anvodstudio)
+## News & Articles
+### Latest Insights
+Stay informed with the latest updates, market insights, and industry trends curated by our expert team.
 
-* * *
+## About
+### About Us
+Learn more about our mission, values, and the unique approach that sets JAO Investment Group apart as a leader in boutique investment banking.
 
-### Theme features
-
-- Dark and Light Mode
-- No jQuery, Only Vanilla JS
-- 100% Responsive Design
-- Clean and Modern Code
-- Optimized for Mobile Devices
-- Section Featured Posts
-- Section Blog
-- Section Videos
-- Section Tag
-- Super Fast Performance ⚡⚡⚡
-- Social Sharing Buttons
-- Scroll to Top Button
-- Syntax Highlighting
-- Compatible with Modern Browsers
-- Medium Style Image Zoom
-- Image Lazy loading
-- Image Gallery
-- Tags
-- Tag Page
-- Author Page
-- Custom Logo Support
-- Support for Multiple Authors
-- Supports Video Posts
-- Supports Contact Form (Formspree)
-- Supports MailChimp Newsletter
-- Supports Disqus Comments
-- Supports Google Analytics
-- Ionicons Icons
-- Free Google Fonts
-
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `hugo` to start building websites, then run `hugo server` or `hugo server --disableFastRender` to start the HUGO server.
-
-I would recommend checking the [Deployment Methods](https://gohugo.io/hosting-and-deployment/) page on HUGO website.
-
-* * *
-
-### Documentation
-
-Before using the Mria theme, please read the attached documentation.
+## Contact
+### Get in Touch
+Have questions or want to work with us? Reach out today and let’s start building your future together.
