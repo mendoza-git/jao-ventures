@@ -1,4 +1,4 @@
-# JAO Investment Group
+# JAO1 Ventures
 
 ## Navigation
 - [Home](#home)
@@ -9,7 +9,7 @@
 
 ## Home
 ### Fueling Innovation Through Investment
-Welcome to JAO Investment Group, where we specialize in creating opportunities and maximizing value through strategic property investments.
+Welcome to JAO1 Ventures, where we specialize in creating opportunities and maximizing value through strategic property investments.
 
 ## Services
 ### Our Services
@@ -21,7 +21,7 @@ Stay informed with the latest updates, market insights, and industry trends cura
 
 ## About
 ### About Us
-Learn more about our mission, values, and the unique approach that sets JAO Investment Group apart as a leader in boutique investment banking.
+Learn more about our mission, values, and the unique approach that sets JAO1 Ventures apart as a leader in boutique investment banking.
 
 ## Contact
 ### Get in Touch
