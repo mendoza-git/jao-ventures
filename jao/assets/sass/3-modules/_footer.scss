@@ -11,6 +11,7 @@
     flex-grow: 1;
 
     &:last-child>.widget-footer {
+      margin-top: 10px;
       margin-bottom: 0;
     }
   }
@@ -30,10 +31,12 @@
 
 .widget-footer {
   @media only screen and (max-width: $desktop) {
+    margin-top: 60px;
     margin-bottom: 60px;
   }
 
   @media only screen and (max-width: $mobile) {
+    margin-top: 44px;
     margin-bottom: 44px;
   }
 }
@@ -41,13 +44,15 @@
 /* Widget Info */
 .widget-info__title {
   font-family: $base-font-family;
+  font-size: 32px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: -1px;
 }
 
 .widget-info__desc {
-  color: var(--text-color);
+  max-width: 380px;
+  color: var(--text-alt-color);
 
   @media only screen and (max-width: $desktop) {
     max-width: 100%;
@@ -91,7 +96,7 @@
 
 /* Widget Recent Posts */
 .widget-recent-posts__title {
- font-size: 28px;
+  font-size: 28px;
 }
 
 .recent-posts {

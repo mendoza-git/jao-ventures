@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Fragrances de America"
+title = "JAO1 Ventures"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 7
 
@@ -10,77 +10,74 @@ paginate = 7
 #-------------------------------
 # Main Menu
 [menu]
-  [[menu.main]]
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Articles"
-    url = "/posts/"
-    weight = 2
+    [[menu.main]]
+      identifier = "men"
+      name = "Services"
+      url = "/services/"
+      weight = 1
 
-  [[menu.main]]
-    identifier = "men"
-    name = "Men"
-    url = "/men/"
-    weight = 3
+    [[menu.main]]
+      identifier = "blog"
+      name = "News & Articles"
+      url = "/posts/"
+      weight = 2
 
-  [[menu.main]]
-    identifier = "videos"
-    name = "Women's 50"
-    url = "/videos/"
-    weight = 4
+    [[menu.main]]
+      parent = "More"
+      name = "About"
+      url = "/about/"
+      weight = 1
 
-      [[menu.main]]
-        parent = "More"
-        name = "About"
-        url = "/about/"
-        weight = 1
-
-      [[menu.main]]
-        parent = "More"
-        name = "Contact"
-        url = "/contact/"
-        weight = 2
+    [[menu.main]]
+      parent = "More"
+      name = "Contact"
+      url = "/contact/"
+      weight = 2
 
     # Footer Menu
     [[menu.footer]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
+      identifier = "men"
+      name = "Services"
+      url = "/services/"
       weight = 1
 
     [[menu.footer]]
-      identifier = "authors"
-      name = "Notes"
-      url = "/authors/"
+      identifier = "blog"
+      name = "News & Articles"
+      url = "/posts/"
       weight = 2
 
     [[menu.footer]]
-      identifier = "blog"
-      name = "Articles"
-      url = "/posts/"
+      name = "About"
+      url = "/about/"
       weight = 3
+
+    [[menu.footer]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 4
 
 
 [params]
-  logo = "images/fda.png"
-  description = "Mria is a multipurpose blog theme for HUGO"
-  color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+  logo = "images/jao-logo.png"
+  description = "JAO1 Ventures Logo"
+  color_scheme = "auto"
 
 
   #-------------------------------
   # Hero Settings
   [params.hero]
-    enable = false
-    hero__title = "Thoughts, stories and ideas."
-    hero__description = "Using quality fragrances is crucial as they not only enhance personal grooming but also leave a lasting impression, contributing to one's overall confidence and self-expression. The intricate and well-crafted compositions of high-quality fragrances also ensure longevity and a distinct olfactory experience, making them a significant element in creating memorable and refined impressions."
+    enable = true
+    hero__title = ""
+    hero__description = "JA01 Ventures was founded in 1995 as a boutique investment bank with a focus on providing innovative solutions to clients. Our team of seasoned professionals has a deep understanding of the industry and a strong commitment to our clients."
     hero__image = "" # You can add hero image. For example "/images/06.jpg"
 
 
   #-------------------------------
   # Blog Section Settings
   [params.blog]
-    enable = true
+    enable = false
     blog__title = "Latest Posts"
     blog__description = ""
 
@@ -120,7 +117,7 @@ paginate = 7
 
   # Newsletter
   [params.mailchimp]
-    enable = true
+    enable = false
     mailchimp__title = "Newsletter coming soon"
     mailchimp__description = "Check back again soon. Our site is always growing and new content will be up regularly."
     mailchimp__identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
@@ -132,39 +129,18 @@ paginate = 7
   #-------------------------------
   # Footer Settings
   [params.footer]
-    footer__description = "Using quality fragrances is crucial as they not only enhance personal grooming but also leave a lasting impression, contributing to one's overall confidence and self-expression. The intricate and well-crafted compositions of high-quality fragrances also ensure longevity and a distinct olfactory experience, making them a significant element in creating memorable and refined impressions."
+    footer__description = "Founded in 1995 as a boutique investment bank with a focus on providing innovative solutions to clients. Our team of seasoned professionals has a deep understanding of the industry and a strong commitment to our clients."
 
   # Social Links
   [[params.social]]
-    icon = "ion-logo-twitter"
-    name = "Twitter"
-    link = "https://twitter.com"
+    icon = "ion-logo-instagram"
+    name = "Instagram"
+    link = "https://instagram.com"
 
   [[params.social]]
     icon = "ion-logo-facebook"
     name = "Facebook"
     link = "https://facebook.com"
-
-  [[params.social]]
-    icon = "ion-logo-codepen"
-    name = "Codepen"
-    link = "https://codepen.io"
-
-  [[params.social]]
-    icon = "ion-logo-pinterest"
-    name = "Pinterest"
-    link = "https://pinterest.com"
-
-  [[params.social]]
-    icon = "ion-logo-vimeo"
-    name = "Vimeo"
-    link = "https://vimeo.com"
-
-  # Example of adding a new link to the footer section:
-  # [[params.social]]
-  #   icon = "ion-logo-youtube"
-  #   name = "Youtube"
-  #   link = "https://youtube.com"
 
   # Other icons can be found at https://ionicons.com/v4/
 

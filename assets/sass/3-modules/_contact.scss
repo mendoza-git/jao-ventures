@@ -49,3 +49,15 @@
     border-color: var(--brand-color);
   }
 }
+
+
+.widget-contact {
+    text-align: center;
+    &__title {
+
+    }
+
+    &__desc {
+      margin-bottom: 0;
+    }
+}

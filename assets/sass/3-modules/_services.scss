@@ -1,0 +1,12 @@
+.widget-services {
+    .widget-info {
+        &__title {
+            padding-top: 24px;
+            text-align: center;
+        }
+
+        &__desc {
+            font-weight: 300;
+        }
+    }
+}

@@ -1,4 +1,0 @@
----
-layout: men
-title: Men
----

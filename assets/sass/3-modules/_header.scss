@@ -1,12 +1,13 @@
 /* Header */
 .header {
+  border-bottom: 1px solid rgba(103, 115, 135, 0.1);
   .header__inner {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px $base-spacing-unit;
+    padding: 0 $base-spacing-unit;
 
     @media only screen and (max-width: $mobile) {
       padding: 32px $base-spacing-unit;
@@ -29,7 +30,7 @@
 }
 
 .logo__image {
-  max-height: 28px;
+  max-height: 128px;
 
   img {
     height: 150px;
@@ -143,7 +144,7 @@
     .nav__link {
       position: relative;
       padding: 12px 0;
-      font-size: 17px;
+      font-size: 20px;
       line-height: 1;
       font-weight: 600;
       will-change: transform;
