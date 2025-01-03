@@ -4,11 +4,20 @@
         background-size: cover;
         display: flex; 
         padding-top: 50px; 
-        height: 110vh;
+        height: 95vh;
+
+        @media only screen and (max-width: $mobile) {
+            height: 100vh;
+        }
 
         &_content {
             margin-top: 25%;
             margin-left: 50px;
+            
+
+            @media only screen and (max-width: $mobile) {
+                margin-left: 0;
+            }
 
             .widget-info__title {
                 font-size: 3rem;
@@ -29,7 +38,6 @@
             display: flex;
         }
 
-        
         &_content {
 
             text-align: center;

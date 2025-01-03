@@ -54,7 +54,14 @@
 .widget-contact {
     text-align: center;
     &__title {
+      text-decoration: underline;
 
+      &-alt {
+        text-decoration: underline;
+        @media only screen and (max-width: $tablet) {
+          margin-top: 50px;
+        }
+      }
     }
 
     &__desc {
