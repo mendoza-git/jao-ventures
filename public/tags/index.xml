@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on JAO1 Ventures</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on JAO1 Ventures</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 15:01:35 +0300</lastBuildDate>
+    <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>business</title>
+      <link>http://example.org/tags/business/</link>
+      <pubDate>Mon, 01 Jan 2024 15:01:35 +0300</pubDate>
+      <guid>http://example.org/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>residential</title>
+      <link>http://example.org/tags/residential/</link>
+      <pubDate>Mon, 01 Jan 2024 15:01:35 +0300</pubDate>
+      <guid>http://example.org/tags/residential/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
