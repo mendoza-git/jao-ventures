@@ -4,7 +4,7 @@ image: 'https://via.placeholder.com/1200x800'
 ---
 
 # Who We Are
-At JAO1 Ventures, we are a boutique investment bank with a focus on acquiring, enhancing, and managing properties to create lasting value. Founded with a vision to fuel innovation through strategic investments, our team combines deep market expertise with a personalized approach to help our clients achieve their financial goals.
+At JAO Ventures, we are a boutique investment bank with a focus on acquiring, enhancing, and managing properties to create lasting value. Founded with a vision to fuel innovation through strategic investments, our team combines deep market expertise with a personalized approach to help our clients achieve their financial goals.
 
 With a commitment to excellence and integrity, we specialize in identifying high-potential opportunities in real estate and guiding clients through every stage of the investment process. Whether you’re a seasoned investor or just beginning your journey, JAO is your trusted partner in building a future of growth and prosperity.
 
@@ -26,7 +26,7 @@ Our mission is to empower individuals, businesses, and communities through strat
 - Sustainability: Promoting growth that benefits both current and future generations.
 
 
-# Why Choose JAO1?
-At JAO1 Ventures, we believe in going beyond traditional investment strategies. Our boutique approach allows us to deliver personalized attention and innovative solutions, ensuring your goals remain our top priority. Together, we can transform challenges into opportunities and lay the foundation for enduring success.
+# Why Choose JAO?
+At JAO Ventures, we believe in going beyond traditional investment strategies. Our boutique approach allows us to deliver personalized attention and innovative solutions, ensuring your goals remain our top priority. Together, we can transform challenges into opportunities and lay the foundation for enduring success.
 
 Let’s build your future—one strategic investment at a time.

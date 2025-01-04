@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "JAO1 Ventures"
+title = "JAO Ventures"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 7
 
@@ -61,7 +61,7 @@ paginate = 7
 
 [params]
   logo = "images/jao-logo.png"
-  description = "JAO1 Ventures Logo"
+  description = "JAO Ventures Logo"
   color_scheme = "auto"
 
 
