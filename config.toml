@@ -17,11 +17,6 @@ paginate = 7
       url = "/services/"
       weight = 1
 
-    [[menu.main]]
-      identifier = "blog"
-      name = "News & Articles"
-      url = "/posts/"
-      weight = 2
 
     [[menu.main]]
       parent = "More"
@@ -41,12 +36,6 @@ paginate = 7
       name = "Services"
       url = "/services/"
       weight = 1
-
-    [[menu.footer]]
-      identifier = "blog"
-      name = "News & Articles"
-      url = "/posts/"
-      weight = 2
 
     [[menu.footer]]
       name = "About"
