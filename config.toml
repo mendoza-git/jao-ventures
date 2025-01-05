@@ -5,8 +5,6 @@ languageCode = "en-us"
 title = "JAO Ventures"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 7
-theme = mria
-
 
 #-------------------------------
 # Main Menu
