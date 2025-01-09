@@ -37,4 +37,4 @@ jobs:
           git config user.name 'mendoza-git'
           git config user.email 'mendoza.getmail@gmail.com'
           git commit -m 'Updated site'
-          git push
+          git push  
