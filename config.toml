@@ -117,7 +117,7 @@ paginate = 5
   #-------------------------------
   # Footer Settings
   [params.footer]
-    footer__description = "Founded in 1995 as a boutique investment bank with a focus on providing innovative solutions to clients. Our team of seasoned professionals has a deep understanding of the industry and a strong commitment to our clients."
+    footer__description = "Founded in 2022 as a boutique investment bank with a focus on providing innovative solutions to clients. Our team of seasoned professionals has a deep understanding of the industry and a strong commitment to our clients."
 
   # Social Links
   [[params.social]]

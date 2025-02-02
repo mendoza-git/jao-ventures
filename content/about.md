@@ -1,6 +1,6 @@
 ---
 title: About Us
-image: 'https://via.placeholder.com/1200x800'
+image: '/images/jao-growth.jpg'
 ---
 
 # Who We Are
