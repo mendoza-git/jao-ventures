@@ -1,18 +1,21 @@
 .hero {
     .hero-splash {
+        @media only screen and (max-width: $mobile) {
+            background-image: url('/images/jao-splash-2.jpg');
+        }
         background-image: url('/images/jao-splash.jpg');
         background-size: cover;
         display: flex; 
         padding-top: 50px; 
         height: 95vh;
 
-        @media only screen and (max-width: $mobile) {
-            height: 100vh;
-        }
-
         &_content {
-            margin-top: 25%;
+            margin-top: 15%;
             margin-left: 50px;
+
+            a {
+                font-family: "Fustat", serif !important;
+            }
             
 
             @media only screen and (max-width: $mobile) {
@@ -21,12 +24,14 @@
 
             .widget-info__title {
                 font-size: 3rem;
+                font-family: "Fustat", serif;
             }
 
             .widget-info__desc {
                 font-size: 1.5rem;
-                font-weight: 300;
+                font-weight: 400;
                 text-align: left;
+                font-family: "Fustat", serif;
             }
         }
       }

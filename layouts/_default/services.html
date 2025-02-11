@@ -1,33 +1,106 @@
 {{ define "main" }}
 <!-- begin authors -->
 <div class="services-container container">
-    <h1>Services</h1>
-    <div class="row">
-        <div class="col col-12 col-d-12">
-            <div class="widget-services widget-info">
-                <!-- <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2273&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="{{ .Site.Title}}" style="width: 100%; height: auto;"> -->
-                <h3 class="widget-info__title">Earnest Money Deposit (EMD)</h3>
-                <p class="widget-info__desc">
-                    JAO ensures the secure and efficient handling of earnest money deposits, a critical component of real estate transactions. We provide a trusted intermediary service, safeguarding your funds while reinforcing the commitment between buyers and sellers. Our transparent processes and reliable systems give all parties peace of mind, ensuring that your deposit is managed professionally and in accordance with contractual agreements. Whether you're buying your first home or managing multiple properties, JAO simplifies this essential step in the real estate process.</p>
-            </div>
-        </div>
-        <div class="col col-12 col-d-12">
-            <div class="widget-services widget-info">
-                <!-- <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2273&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="{{ .Site.Title}}" style="width: 100%; height: auto;"> -->
-                <h3 class="widget-info__title">Private Money Lender (PML)</h3>
-                <p class="widget-info__desc">
-                    As a primary money lender, JAO specializes in offering competitive and customized loan solutions to homebuyers and investors. Our lending services are designed to streamline the borrowing experience, providing accessible and transparent financing options for residential and commercial properties. With flexible terms and personalized guidance, we empower our clients to make confident financial decisions. JAO is dedicated to being a trusted partner in achieving your property ownership goals.</p>
-            </div>
-        </div>
-        <div class="col col-12 col-d-12">
-            <div class="widget-services widget-info">
-                <!-- <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2273&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="{{ .Site.Title}}" style="width: 100%; height: auto;"> -->
-                <h3 class="widget-info__title">Hard Money Lender (HML)</h3>
-                <p class="widget-info__desc">
-                    JAO’s hard money lending services deliver fast, asset-based financing solutions for real estate investors. Ideal for short-term projects or non-traditional transactions, our hard money loans prioritize speed and flexibility. With simplified approval processes and a focus on the value of the property rather than the borrower’s credit history, we help investors seize opportunities quickly. Whether you're flipping a property or managing a bridge loan, JAO is your reliable partner for agile and effective funding. </p>
-            </div>
-        </div>
-    </div>
-</div> 
+    <ul class="card-list">
+  
+        <li class="card">
+          <a class="card-image" href="" target="_blank" style="background-image: url('/images/earnest-money-deposit.jpg');" data-image-full="">
+            <img src="" alt="Psychopomp" />
+          </a>
+          <a class="card-description" href="" target="_blank">
+            <h2 class="card-title">Earnest Money Deposit</h2>
+          </a>
+        </li>
+        
+        <li class="card">
+            <a class="card-image" href="" target="_blank" style="background-image: url('/images/private-money-lending.jpg');" data-image-full="">
+                <img src="" alt="Psychopomp" />
+            </a>
+            <a class="card-description" href="" target="_blank">
+                <h2 class="card-title">Private Money Lending</h2>
+            </a>
+        </li>
+        
+        <li class="card">
+            <a class="card-image" href="" target="_blank" style="background-image: url('/images/hard-money-lender.jpg');" data-image-full="">
+                <img src="" alt="Psychopomp" />
+            </a>
+            <a class="card-description" href="" target="_blank">
+                <h2 class="card-title">Hard Money Lending</h2>
+            </a>
+        </li>
+        
+      </ul>
+</div>
+
+<style>
+    /* Lazy Load Styles */
+.card-image {
+  display: block;
+  min-height: 17rem; /* layout hack */
+  background: #fff center center no-repeat;
+  background-size: cover;
+}
+
+.card-image > img {
+  display: block;
+  width: 100%;
+  opacity: 0; /* visually hide the img element */
+}
+
+.card-image.is-loaded {
+  filter: none; /* remove the blur on fullres image */
+  transition: filter 1s;
+}
+
+.card-list {
+  display: block;
+  margin: 1rem auto;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.card {
+  display: inline-block;
+  width: 90%;
+  max-width: 25rem;
+  margin: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid #0e0e0e;
+
+
+  .card-title {
+    font-family: "Fustat", serif !important;
+    font-weight: 500 !important;
+    margin-bottom: 10px;
+  }
+}
+
+.card:hover {
+    background-color: var(--background-alt-color);
+    .card-title {
+        color: var(--brand-color) !important;
+    }
+}
+
+.card-description {
+  display: block;
+  padding: 2em 0.5em;
+  text-decoration: none;
+  border-top: 1px solid #0e0e0e;
+}
+
+.card-description > h2 {
+  margin: 0 0 0.5em;
+}
+
+.card-description > p {
+  margin: 0;
+}
+</style>
 <!-- end authors -->
 {{ end }}

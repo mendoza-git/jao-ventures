@@ -40,14 +40,16 @@
 
 /* Widget Info */
 .widget-info__title {
-  font-family: $base-font-family;
+  font-family: "Fustat", serif;
+  font-size: 2rem;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -1px;
 }
 
 .widget-info__desc {
   color: var(--text-color);
+  font-family: "Fustat", serif;
 
   @media only screen and (max-width: $desktop) {
     max-width: 100%;
