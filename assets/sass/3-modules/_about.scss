@@ -5,15 +5,50 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -25px;
-    filter: grayscale(100%);
     text-align: center;
+
+
+
+    .about-hero-content {
+        position: relative;
+        top: 30%;
+        .about-hero-title {
+            color: rgb(0, 0, 0) !important;
+            font-weight: 600;
+            padding: 7px 0;
+            margin: 0 43%;
+            margin-bottom: 10px !important;
+            background-color: white;
+            font-family: "Fustat", serif !important;
+
+            @media only screen and (max-width: $desktop) {
+                font-size: 28px;
+                margin: 0 30%;
+            }
+        }
+    
+        .about-hero-subtitle {
+            color: rgb(0, 0, 0) !important;
+            padding: 10px;
+            background-color: white;
+            margin: 0 35%;
+            font-family: "Fustat", serif !important;
+    
+            @media only screen and (max-width: $desktop) {
+                font-size: 18px;
+                margin: 0 15%;
+            }
+        }
+    }
 }
 
 .about-content-container {
     .title {
+        font-family: "Fustat", serif !important;
         text-align: center;
-        padding: 10px 0 10px 0;
+        padding: 10px 0 10px 5px;
         border: 1px solid #0e0e0e;
+        font-weight: 700;
     }
     .inner {
         padding-top: 25px;

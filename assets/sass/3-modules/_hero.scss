@@ -1,6 +1,6 @@
 .hero {
     .hero-splash {
-        @media only screen and (max-width: $mobile) {
+        @media only screen and (max-width: $tablet) {
             background-image: url('/images/jao-splash-2.jpg');
         }
         background-image: url('/images/jao-splash.jpg');
@@ -25,6 +25,8 @@
             .widget-info__title {
                 font-size: 3rem;
                 font-family: "Fustat", serif;
+                padding: 5px;
+                border: 1px solid #000000;
             }
 
             .widget-info__desc {
@@ -32,6 +34,10 @@
                 font-weight: 400;
                 text-align: left;
                 font-family: "Fustat", serif;
+
+                @media only screen and (max-width: $tablet) {
+                    font-size: 18px;
+                }
             }
         }
       }

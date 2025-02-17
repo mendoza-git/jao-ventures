@@ -11,6 +11,15 @@
   margin-bottom: 32px;
 }
 
+.contact-hero-container {
+  height: 30vh;
+  width: 100vw;
+  background-image: url('/images/contact-lg-cover.jpg');
+  background-size: cover;
+  background-position-y: -50px;
+  background-repeat: no-repeat;  margin-top: -25px;
+}
+
 .contact-description {
   font-size: 21px;
   color: var(--text-alt-color);
