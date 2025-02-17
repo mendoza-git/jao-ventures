@@ -65,6 +65,7 @@
         text-decoration: none;
         overflow: hidden;
         border: 1px solid #0e0e0e;
+        filter: grayscale(100%);
       
       
         .card-title {
@@ -76,6 +77,7 @@
       
       .card:hover {
           background-color: var(--background-alt-color);
+          filter: grayscale(0%);
           .card-title {
               color: var(--brand-color) !important;
           }

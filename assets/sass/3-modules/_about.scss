@@ -1,17 +1,23 @@
 .about-hero-container {
-    height: 75vh;
+    height: 45vh;
     width: 100vw;
     background-image: url('/images/about-lg-cover.jpg');
     background-size: cover;
-    margin-bottom: 20px;
+    background-repeat: no-repeat;
     margin-top: -25px;
+    filter: grayscale(100%);
+    text-align: center;
+}
 
-    .about-hero-content {
-        padding-top: 10rem;
+.about-content-container {
+    .title {
         text-align: center;
+        padding: 10px 0 10px 0;
+        border: 1px solid #0e0e0e;
+    }
+    .inner {
+        padding-top: 25px;
     }
 }
 
-.inner {
-    padding-top: 25px;
-}
+
