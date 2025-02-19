@@ -12,12 +12,21 @@
 }
 
 .contact-hero-container {
-  height: 30vh;
-  width: 100vw;
-  background-image: url('/images/contact-lg-cover.jpg');
-  background-size: cover;
-  background-position-y: -50px;
-  background-repeat: no-repeat;  margin-top: -25px;
+  font-family: "Fustat", serif;
+
+  .page__title {
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid #000000;
+  }
+
+  .widget-contact__title {
+    font-family: "Fustat", serif;
+  }
+
+  .widget-contact__title-alt {
+    font-family: "Fustat", serif;
+  }
 }
 
 .contact-description {
