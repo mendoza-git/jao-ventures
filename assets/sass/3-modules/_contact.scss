@@ -11,6 +11,26 @@
   margin-bottom: 32px;
 }
 
+.contact-hero-container-image {
+  background-image: url('/images/jao-contact.jpg');
+  height: 20em;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -25px;
+  text-align: center;
+  background-position-x: center;
+  border-bottom: 1px solid #000;
+
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100vw !important;
+
+  @media only screen and (min-width: $tablet) {
+    height: 30em;
+  }
+}
+
 .contact-hero-container {
   font-family: "Fustat", serif;
 
