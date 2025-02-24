@@ -9,7 +9,16 @@
 
             <div class="col col-4 col-d-12">
               <div class="widget-footer widget-info">
-                <h3 class="widget-info__title">{{ .Site.Title}}</h3>
+                <div class="logo">
+                  <a class="logo__link" href="{{ .Site.BaseURL }}">
+                    {{ if .Site.Params.logo }}
+                    <img class="logo__image" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Title }}">
+                    {{ else }}
+                      {{ .Site.Title }}
+                    {{ end }}
+                  </a>
+                </div>
+                {{/*  <h3 class="widget-info__title">{{ .Site.Title}}</h3>  */}}
                 <p class="widget-info__desc">{{ .Site.Params.footer.footer__description }}</p>
                 {{ if .Site.Params.social }}
                 {{ with .Site.Params.social }}

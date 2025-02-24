@@ -48,7 +48,7 @@ paginate = 5
 
 
 [params]
-  logo = "images/jao-logo.png"
+  logo = "images/jao-logo-alt.png"
   description = "JAO Ventures Logo"
   color_scheme = "auto"
 
